@@ -76,3 +76,10 @@ Wall time: `23:31.65`; peak RSS:
 `642728` KiB. The complete transcript is
 `logs/n8/proof_complete_quick_verify.log`.
 
+## Publication-tree note
+
+The recorded quick-verification transcript predates the removal of duplicate
+summaries, low-level build logs, and internal release-management documents, so
+its manifest line reports 179 files. The public tree now has a 131-entry
+manifest. No proof data, proof source, verifier, or reproduction script changed
+during that publication-only cleanup.

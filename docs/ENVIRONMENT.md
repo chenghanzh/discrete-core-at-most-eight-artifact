@@ -33,14 +33,6 @@ The run produced and checked:
   6,543,104 open-floor checks, and 4,430,958 exact price LPs;
 - exact minimum margins `1/1008` and `1/11`.
 
-## Earlier validation
-
-The predecessor and code-hardening runs are retained in
-`logs/n8/completed_code_validation.log` and
-`logs/n8/release_blocker_fixes_validation.log`. Those logs document the full
-`m<=7` regeneration, checker negative tests, proposal-independence regression,
-smoke fix, resume hash binding, and the exceptional-kernel `m=8` smoke test.
-
 ## Public-log path normalization
 
 Before public distribution, container-local working paths in the retained text

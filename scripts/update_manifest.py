@@ -20,7 +20,12 @@ for path in sorted(root.rglob("*")):
     if not path.is_file() or path == manifest:
         continue
     relative = path.relative_to(root)
-    if "__pycache__" in relative.parts or path.suffix == ".pyc":
+    if (
+        ".git" in relative.parts
+        or relative.name == ".DS_Store"
+        or "__pycache__" in relative.parts
+        or path.suffix == ".pyc"
+    ):
         continue
     lines.append(f"{sha256(path)}  {relative.as_posix()}")
 manifest.write_text("\n".join(lines) + "\n", encoding="utf-8")

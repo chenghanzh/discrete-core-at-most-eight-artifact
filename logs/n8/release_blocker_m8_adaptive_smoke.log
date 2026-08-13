@@ -1,3 +1,0 @@
-PASS m=8 scanner smoke records=48 adaptive_targets=10
-PASS m=8 chunk/certificate merge and exact aggregate agreement
-PASS m=8 adaptive-certificate proposal, dual-scanner agreement, and independent exact replay on the 48-record exceptional-kernel subproblem

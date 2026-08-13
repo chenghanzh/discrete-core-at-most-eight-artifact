@@ -1,3 +1,0 @@
-Recorded aggregate from the complete current-checker split replay performed in
-this release-correction pass (40 exact certificate substreams):
-PASS certs=36128 fixed=36119 adaptive=9 boundary_single_or_sum=1282 boundary_coalition_checks=0 coalition_checks=4594479 min_positive_endpoint=1/364
