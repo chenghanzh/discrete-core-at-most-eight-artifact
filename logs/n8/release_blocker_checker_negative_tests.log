@@ -1,0 +1,5 @@
+PASS m=7 valid record and rejection of rank-deficient/empty-positive-dual records
+rank_bad rc=1: invalid dual kernel key 0 (rank deficient or D(A) empty) 
+empty_dual rc=1: invalid dual kernel key 53221801103618419 (rank deficient or D(A) empty) 
+PASS m=8 ll rejects rank-deficient key (rc=1)
+PASS m=8 gmp rejects rank-deficient key (rc=1)

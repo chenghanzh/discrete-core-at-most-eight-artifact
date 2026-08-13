@@ -1,0 +1,2 @@
+PASS n=8 release regressions: smoke destination, m=7 domain validation,
+proposal non-identity, and SHA-256-bound resume

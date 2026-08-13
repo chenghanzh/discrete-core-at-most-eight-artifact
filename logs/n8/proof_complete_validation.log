@@ -1,0 +1,51 @@
+DISCRETE CORE AT MOST EIGHT — PROOF-COMPLETE ARTIFACT VALIDATION
+Date: 2026-08-07 UTC
+
+Full m=8 production result:
+  kernels=9105190
+  hard_records=1049187
+  certificates=1049187
+  fixed=1049177
+  adaptive=10
+  failures=0
+  signed_rational_replay=PASS
+  gmp_replay=PASS
+  exact_aggregate_agreement=PASS
+  saturation_skips=122280434
+  open_floor_checks=6543104
+  exact_price_LPs=4430958
+  min_singleton_or_sum=1/1008
+  min_exact_price=1/11
+
+Proof-relevant files:
+  cps8_all.bin bytes=67147976 sha256=527d8237a2e4aaa79a5767fc5b6cfed8e9094f11e62f413e49a023dff683021b
+  cps8_fail.bin bytes=8 sha256=af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+  n8m8_hard.bin bytes=25180504 sha256=f22c6d2ee7f8359e99ac84030a27f17588ae46c069831b57cd7f0f5f97d77ff4
+  n8m8_pos.bin bytes=72841528 sha256=4bff2f6e4af42bb2ff8517e08fd7ceff36767f8a6a7bd4b95f972799a7f597d0
+
+Independent raw-binary audit:
+  command=scripts/independent_m8_binary_audit.py
+  status=PASS
+
+Final release regressions:
+  command=scripts/test_n8_release_regressions.sh
+  status=PASS
+
+Final referee-scale replay:
+  command=scripts/quick_verify.sh
+  status=PASS
+  elapsed_wall=23:31.65
+  peak_rss_kb=642728
+
+Selected quick-verify PASS lines:
+  PASS n=6 antichains=2153 cells=46 bad=0 surplus=0
+  PASS n=7 antichains=61846 cells=30929 surplus=298 bad=0
+  PASS m=4,5 canonical counts and direct/augmentation agreement
+  PASS m=7 deposited exact validity certs=36128 fixed=36119 adaptive=9
+  PASS m=7 proposal coverage records=36128 fixed=36119 adaptive=9
+  PASS m=7 regenerated exact validity certs=36128 fixed=36119 adaptive=9
+  PASS n=8 available branches m4,m5,m6,m7 plus m8 adaptive exact smoke
+  PASS m=8 signed-rational/GMP chunked replays agree chunks=100 jobs=5
+  PASS m=8 exact validity certs=1049187 fixed=1049177 adaptive=10 saturation_skips=122280434 open_floor_checks=6543104 exact_price_LPs=4430958 min_singleton_or_sum=1/1008 min_exact_price=1/11
+  PASS n=8 m4,m5,m6,m7,m8 exact replay and record coverage
+  PASS theorem_artifact=discrete-core-at-most-eight

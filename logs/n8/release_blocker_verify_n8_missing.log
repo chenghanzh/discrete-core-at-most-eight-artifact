@@ -1,0 +1,6 @@
+MISSING data/n8/m8/n8m8_pos.bin
+MISSING data/n8/m8/n8m8_hard.bin
+MISSING data/n8/m8/cps8_all.bin
+ERROR: full n=8 verification needs the large m=8 data; see data/n8/m8/REQUIRED_FILES.md
+exit_code=2
+PASS full verifier fails closed on the three absent large m=8 files; deterministic zero-failure header is present

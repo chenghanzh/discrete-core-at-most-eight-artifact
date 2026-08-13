@@ -1,0 +1,2 @@
+PASS signed64/GMP aggregate summaries agree on all proof-relevant fields
+PASS GMP agrees with 7 completed boost::cpp_int spot replays

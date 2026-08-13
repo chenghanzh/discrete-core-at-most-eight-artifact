@@ -1,0 +1,4 @@
+input=<artifact-root>/data/n8/m5/n8m5_pos.bin offset=0 matrices=56479 records=0
+k=2 cases=56479 raw_min_holes=13583 normalized_min=13583 min_subset_rej=1099 min_cover_rej=11427 upper_floors=2211 subset_pass=2203 floor_cover_rej=355 cell_feasible=42 unresolved_by_tight=0 B_empty=0
+k=3 cases=56479 raw_min_holes=13583 normalized_min=13583 min_subset_rej=1099 min_cover_rej=11427 upper_floors=2211 subset_pass=2203 floor_cover_rej=355 cell_feasible=42 unresolved_by_tight=0 B_empty=0
+seconds=0.182541

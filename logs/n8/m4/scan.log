@@ -1,0 +1,3 @@
+input=<artifact-root>/data/n8/m4/n8m4_pos.bin offset=0 matrices=4779 records=0
+k=2 cases=4779 raw_min_holes=36 normalized_min=36 min_subset_rej=0 min_cover_rej=0 upper_floors=56 subset_pass=56 floor_cover_rej=0 cell_feasible=22 unresolved_by_tight=0 B_empty=0
+seconds=0.00595428
